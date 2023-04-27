@@ -10,6 +10,7 @@ body {
   color: #798777;
   font-family: sans-serif;
 }
+
 /*Cabeçalho*/
 header {
   background-color: #bdd2b6;
@@ -18,6 +19,7 @@ header {
   text-align: center;
   color: #798777;
 }
+
 /*Barra de navegação*/
 nav {
   background-color: #a2b29f;
@@ -38,62 +40,79 @@ nav > ul > li > a:hover {
   font-weight: bolder;
 }
 
-/*Corpo*/
+/*Info geral*/
 article > h2 {
   padding: 30px 0 20px 0;
   text-align: center;
 }
+#infoGeral {
+  width: 70%;
+  padding-left: 30px;
+  display: inline-block;
+}
 
+/*Tabela*/
 table {
-margin-left: 40px;
+  margin-left: 50px;
   padding: 20px;
   border: 3px solid #798777;
   display: inline-block;
-  
 }
 
-table>tr {padding: 155px;}
-#info1 {
-  width: 70%;
-  padding-left: 15px;
-  display: inline-block;
-}
-
-hr {
-  margin: 15px 0 15px 0;
-}
-
-.fatos {width: 30%;
-display: inline-block;
-padding: 30px;
-margin: 3px;
-}
-
-.fatos img {margin-top: 15px;
-  width: 100%;}
-
-.final {width: 30%;
+/*Grid de curiosidades*/
+.fatos {
+  width: 30%;
   display: inline-block;
   padding: 30px;
   margin: 3px;
 }
 
-#contato {text-align: center;
-font-size: 15px;}
-aside {float: right;}
-.referencia>h3 {padding: 15px 0;}
-.referencia>ul>li>a {line-height: 20px;}
+.fatos img {
+  margin-top: 15px;
+  width: 100%;
+}
 
-.btn>a {text-decoration: none;
-color: #F8EDE3;}
+/*Link ao lado*/
+.botao {
+  width: 30%;
+  padding: 20px 100px 0 0;
+  margin: 3px;
+  float: right;
+}
+
+.btn > a {
+  text-decoration: none;
+  color: #f8ede3;
+}
+
+/*Referência*/
+.referencia {
+  padding-left: 30px;
+}
+.referencia > h3 {
+  padding: 15px 0;
+}
+.referencia > ul {
+  list-style: none;
+}
+.referencia > ul > li > a {
+  line-height: 20px;
+}
+
+/*Rodapé*/
+#contato {
+  text-align: center;
+  font-size: 15px;
+}
+
 /*https://css3buttongenerator.com/*/
 .btn {
   background: #798777;
-  background-image: -webkit-linear-gradient(top, #798777, #A2B29F);
-  background-image: -moz-linear-gradient(top, #798777, #A2B29F);
-  background-image: -ms-linear-gradient(top, #798777, #A2B29F);
-  background-image: -o-linear-gradient(top, #798777, #A2B29F);
-  background-image: linear-gradient(to bottom, #798777, #A2B29F);
+  background-image: -webkit-linear-gradient(top, #798777, #a2b29f);
+  background-image: -moz-linear-gradient(top, #798777, #a2b29f);
+  background-image: -ms-linear-gradient(top, #798777, #a2b29f);
+  background-image: -o-linear-gradient(top, #798777, #a2b29f);
+  background-image: linear-gradient(to bottom, #798777, #a2b29f);
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
@@ -105,11 +124,18 @@ color: #F8EDE3;}
 }
 
 .btn:hover {
-  background: #A2B29F;
-  background-image: -webkit-linear-gradient(top, #A2B29F, #798777);
-  background-image: -moz-linear-gradient(top, #A2B29F, #798777);
-  background-image: -ms-linear-gradient(top, #A2B29F, #798777);
-  background-image: -o-linear-gradient(top, #A2B29F, #798777);
-  background-image: linear-gradient(to bottom, #A2B29F, #798777);
+  background: #a2b29f;
+  background-image: -webkit-linear-gradient(top, #a2b29f, #798777);
+  background-image: -moz-linear-gradient(top, #a2b29f, #798777);
+  background-image: -ms-linear-gradient(top, #a2b29f, #798777);
+  background-image: -o-linear-gradient(top, #a2b29f, #798777);
+  background-image: linear-gradient(to bottom, #a2b29f, #798777);
   text-decoration: none;
+}
+/*https://css-tricks.com/examples/hrs/*/
+hr {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.2);
+  margin: 15px 0 15px 0;
 }
