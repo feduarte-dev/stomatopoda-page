@@ -45,7 +45,7 @@ The project consists of a single HTML file (`index.html`) and an external CSS fi
    cd your-repository
    ```
 
-3. Open index.html with live server:
+3. Open index.html with live server.
 
 ## Contributions
 
