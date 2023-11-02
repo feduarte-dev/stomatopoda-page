@@ -21,6 +21,14 @@ The project consists of a single HTML file (`index.html`) and an external CSS fi
 - HTML
 - CSS
 
+### What I Learned
+
+- How to do a header/footer
+- How to do a navbar
+- How to work with sessions 
+- How to organize a page
+- A lot of HTML tags
+
 ## How to Run the Project
 
 1. Clone the repository:
