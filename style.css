@@ -1,4 +1,4 @@
-/*Reset Browser*/
+/*Reset browser*/
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body {
   font-family: sans-serif;
 }
 
-/*Cabeçalho*/
+/*Header*/
 header {
   background-color: #bdd2b6;
   padding: 100px 0 100px 0;
@@ -20,7 +20,7 @@ header {
   color: #798777;
 }
 
-/*Barra de navegação*/
+/*Navigation bar*/
 nav {
   background-color: #a2b29f;
 }
@@ -40,7 +40,7 @@ nav > ul > li > a:hover {
   font-weight: bolder;
 }
 
-/*Info geral*/
+/*General data*/
 article > h2 {
   padding: 30px 0 20px 0;
   text-align: center;
@@ -51,7 +51,7 @@ article > h2 {
   display: inline-block;
 }
 
-/*Tabela*/
+/*Table*/
 table {
   margin-left: 50px;
   padding: 20px;
@@ -59,7 +59,7 @@ table {
   display: inline-block;
 }
 
-/*Grid de curiosidades*/
+/*Curiosity grid*/
 .fatos {
   width: 30%;
   display: inline-block;
@@ -72,7 +72,7 @@ table {
   width: 100%;
 }
 
-/*Link ao lado*/
+/*Video button*/
 .botao {
   width: 30%;
   padding: 20px 100px 0 0;
@@ -85,7 +85,7 @@ table {
   color: #f8ede3;
 }
 
-/*Referência*/
+/*References session*/
 .referencia {
   padding-left: 30px;
 }
@@ -97,12 +97,15 @@ table {
 }
 .referencia > ul > li > a {
   line-height: 20px;
+  text-decoration: none;
+  color: #798777;
 }
 
-/*Rodapé*/
+/*Footer*/
 #contato {
   text-align: center;
   font-size: 15px;
+  padding-bottom: 20px;
 }
 
 /*https://css3buttongenerator.com/*/
