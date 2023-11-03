@@ -12,10 +12,6 @@ This is my first project at Trybe, a week into the course we were asked to creat
 
 This HTML project aims to provide information about Stomatopoda. Below are the key aspects of the project:
 
-### Project Structure
-
-The project consists of a single HTML file (`index.html`) and an external CSS file (`style.css`) for styling. 
-
 ### Technologies
 
 - LINUX
